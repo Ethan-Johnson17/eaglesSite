@@ -1,0 +1,16 @@
+
+  {
+    "name": "eaglessite",
+    "version": "1.0.0",
+    "scripts": {
+      "build": "npm run setup:server",
+      "setup:app": "npm run setup:server && npm run setup:client",
+      "setup:client": "cd eaglesSite.client && npm i",
+      "setup:server": "cd eaglesSite && npm i",
+      "start": "node eaglesSite/index.js"
+    },
+    "engines": {
+      "node": "^14.17.0"
+    }
+  }
+  
