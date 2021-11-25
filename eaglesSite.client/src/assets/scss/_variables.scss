@@ -6,8 +6,12 @@ $info: #5d0149;
 $warning: #fbcf33;
 $danger: #ea0606;
 $light: #e9ecef;
-$dark: #111927;
+$dark: #004C55;
 $grey: #cbcbcb;
+$ep: #004C55;
+$ed: black; 
+$ew: white;
+$es: #A5ACAF;
 
 $font-sans-serif: Open Sans;
 $font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
@@ -22,6 +26,10 @@ $colors: (
   "info": $info,
   "dark": $dark,
   "grey": $grey,
+  "ep": $ep,
+  "ed": $ed,
+  "ew": $ew,
+  "es": $es,
 );
 
 $color-ranges: (
